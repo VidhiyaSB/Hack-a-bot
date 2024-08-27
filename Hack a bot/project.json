@@ -1,0 +1,68 @@
+{
+  "name": "Hack a bot",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "DetectLanguage": "[1.0.0]",
+    "GeminiApi": "[1.0.3]",
+    "Google_GenerativeAI": "[1.0.2]",
+    "LangChain.Providers.Google": "[0.15.0]",
+    "LanguageTranslator": "[1.0.6]",
+    "UiPath.Box.IntegrationService.Activities": "[4.0.3]",
+    "UiPath.Excel.Activities": "[2.11.4]",
+    "UiPath.IBMWatsonLanguageTranslator.Activities": "[0.2.1]",
+    "UiPath.Mail.Activities": "[1.12.3]",
+    "UiPath.MLServices.Activities": "[2.0.3]",
+    "UiPath.PDF.Activities": "[3.16.0]",
+    "UiPath.System.Activities": "[21.10.5]",
+    "UiPath.UIAutomation.Activities": "[21.10.6]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "21.10.7.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "bfcca2eb-2047-4839-915f-b7844d536e08",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Legacy"
+}
